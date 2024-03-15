@@ -10,7 +10,10 @@ class firstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('First Page'),
+          title: const Text(
+            'First Page',
+            
+          ),
           backgroundColor: Colors.blue,
         ),
         body: Center(

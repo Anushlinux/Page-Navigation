@@ -15,6 +15,9 @@ class myapp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: firstPage(),
+      routes: {
+        '/secondPage': (context) => firstPage(),
+      }
     );
   }
 }
