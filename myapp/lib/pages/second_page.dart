@@ -6,14 +6,18 @@ class secondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Second Page',
+        appBar: AppBar(
+          title: const Text(
+            'Second Page',
+          ),
+          backgroundColor: Colors.blue,
         ),
-        backgroundColor: Colors.blue,
-      ),
-    );
+        body: Center(
+          child: ElevatedButton(
+              child: Text("Back to First Page"),
+              onPressed: () {
+                Navigator.pushNamed(context, '/firstPage');
+              }),
+        ));
   }
 }
-
-
