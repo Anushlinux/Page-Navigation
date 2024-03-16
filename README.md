@@ -1,8 +1,6 @@
-**Flutter Project: My App**
-
 **Description**
 
-This is a basic Flutter project demonstrating navigation between two screens: a First Page and a Second Page and a App drawer. It uses the MaterialApp widget as the main application and defines routes for navigating between the pages.
+This is a basic Flutter project demonstrating navigation between screens: a First Page and a Second Page and a App drawer. It uses the MaterialApp widget as the main application and defines routes for navigating between the pages.
 
 **Features**
 
